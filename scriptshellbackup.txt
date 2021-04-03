@@ -1,0 +1,48 @@
+nano script_bkp.sh					
+
+echo "Backup Script starting"			
+tar -czvf bpk.tar.gz *.txt 				
+ctrl + O; enter; ctrl +x					
+
+chmod +x script_bkp.sh					
+
+./script_bkp.sh						
+bash script_bkp.sh					
+
+su 
+root senha
+apt install git 					
+
+
+5)
+git init
+git config --global user.name "RafaVilaruel"
+git config --global user.email "rafael.vilaruel22@gmail.com" 
+git add scrip_bkp.sh
+git commit -m "scriptshellbackup"
+git remote add origin https://github.com/RafaVilaruel/scriptshellbackup
+git push -u origin main
+
+
+nano script_create.sh
+
+#Script para criar arquivos
+
+for i in {1..5}
+do
+	echo "Arquivo$i"
+	touch arquivo$i.txt
+done
+
+sh script_cria_arquivos.sh
+
+cat /etc/os-release		
+
+1º Windows DirectSound
+	SoundBlaster 16
+
+2º Driver de áudio Nulo
+	SoundBlaster 16
+
+3º Driver de áudio Nulo
+	ICH AC97
